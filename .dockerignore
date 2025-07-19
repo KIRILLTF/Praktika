@@ -1,0 +1,19 @@
+# ---- лишние артефакты ---------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# виртуалки и IDE-мусор
+venv*/        .venv*/       env*/        .env*/
+.idea/        .vscode/      .pytest_cache/
+
+# Git / build / тесты
+.git/
+*.egg-info/
+dist/
+build/
+tests/
+**/__pycache__/
+*.py[cod]
+
